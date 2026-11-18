@@ -14,6 +14,14 @@ button{margin-top:12px;padding:10px 18px;font-size:1rem;border:0;border-radius:6
 var u=document.getElementById('u');u.value=location.href;
 if(!/[?&]code=/.test(location.search)){document.getElementById('t').textContent='No se ha recibido ningún código';
 document.getElementById('m').textContent='Vuelve a abrir el enlace de autorización. Si ves un error, cópialo y pégaselo a Claude.';}
+if(window.opener&&/[?&](code|error)=/.test(location.search)){
+  // Ventana abierta desde la pantalla "Publicar vídeo": le devolvemos la respuesta y nos cerramos.
+  try{window.opener.postMessage({tipo:'oauth-tiktok',url:location.href},'*');
+  document.getElementById('t').textContent='Cuenta conectada';
+  document.getElementById('m').textContent='Ya puedes cerrar esta ventana.';
+  u.style.display='none';document.getElementById('b').style.display='none';
+  setTimeout(function(){window.close()},1200);}catch(e){}
+}
 document.getElementById('b').onclick=function(){u.select();try{navigator.clipboard.writeText(u.value)}catch(e){document.execCommand('copy')}
 this.textContent='Copiado ✓';};
 </script>
