@@ -1,0 +1,87 @@
+{
+  "actualizado": "2026-11-18",
+  "publico": "español + inglés",
+  "nota": "TikTok e Instagram no tienen API oficial de tendencias: esta lista la actualiza Claude con búsquedas web (tarea diaria o 'actualiza tendencias'). YouTube se consulta en directo con su API. Decisión del usuario: hashtags 100 % por tendencia, sin adaptarlos al contenido del vídeo. 'momento' = hashtags de actualidad ordenados de más a menos tendencia.",
+  "nicho": [
+    "aivideo",
+    "ai",
+    "ia",
+    "aiart",
+    "aigenerated",
+    "inteligenciaartificial",
+    "aianimation",
+    "videoia",
+    "klingai",
+    "aiartcommunity"
+  ],
+  "general_es": [
+    "humor",
+    "viral",
+    "parati",
+    "memes",
+    "risas",
+    "comedia",
+    "reelsdivertidos",
+    "videosvirales"
+  ],
+  "general_en": [
+    "viral",
+    "funny",
+    "fyp",
+    "foryou",
+    "trending",
+    "funnyreels"
+  ],
+  "por_red": {
+    "tiktok": [
+      "fyp",
+      "parati",
+      "foryou",
+      "viral"
+    ],
+    "instagram": [
+      "reels",
+      "explorepage",
+      "reelsviral",
+      "reelsinstagram",
+      "trendingreels"
+    ],
+    "youtube": [
+      "shorts",
+      "youtubeshorts"
+    ]
+  },
+  "momento": [
+    {
+      "tag": "navidad"
+    },
+    {
+      "tag": "christmas"
+    },
+    {
+      "tag": "larevuelta"
+    },
+    {
+      "tag": "cosplay"
+    },
+    {
+      "tag": "petsoftiktok"
+    },
+    {
+      "tag": "dracula"
+    },
+    {
+      "tag": "psicologia"
+    }
+  ],
+  "fuentes": [
+    "https://ignix.social/trends/hashtags",
+    "https://tokchart.com/tiktok-trending-hashtags",
+    "https://www.trendingsoup.com/tttrends",
+    "https://iqhashtags.com/hashtags/hashtag/ai",
+    "https://async.com/blog/best-hashtags-for-instagram-reels/",
+    "https://www.dashsocial.com/blog/instagram-hashtags",
+    "https://www.que.es/2026/10/30/trends-tiktok-noviembre-2026/",
+    "https://www.getstarrd.app/blog/viral-ai-video-trends-2026"
+  ]
+}
