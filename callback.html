@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Autorización recibida</title><link rel="stylesheet" href="estilo.css">
+<style>textarea{width:100%;box-sizing:border-box;min-height:120px;font:13px/1.4 monospace;padding:8px;
+background:transparent;color:var(--fg);border:1px solid var(--muted);border-radius:6px}
+button{margin-top:12px;padding:10px 18px;font-size:1rem;border:0;border-radius:6px;background:var(--accent);color:#fff;cursor:pointer}</style>
+</head><body><main>
+<h1 id="t">Autorización recibida</h1>
+<p id="m">Copia este texto y pégaselo a Claude en el chat. Caduca en unos minutos.</p>
+<textarea id="u" readonly></textarea>
+<button id="b" type="button">Copiar</button>
+<script>
+var u=document.getElementById('u');u.value=location.href;
+if(!/[?&]code=/.test(location.search)){document.getElementById('t').textContent='No se ha recibido ningún código';
+document.getElementById('m').textContent='Vuelve a abrir el enlace de autorización. Si ves un error, cópialo y pégaselo a Claude.';}
+document.getElementById('b').onclick=function(){u.select();try{navigator.clipboard.writeText(u.value)}catch(e){document.execCommand('copy')}
+this.textContent='Copiado ✓';};
+</script>
+</main></body></html>
