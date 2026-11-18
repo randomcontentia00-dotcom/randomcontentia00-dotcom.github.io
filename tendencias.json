@@ -1,7 +1,7 @@
 {
   "actualizado": "2026-11-18",
   "publico": "español + inglés",
-  "nota": "TikTok e Instagram no tienen API oficial de tendencias: esta lista la actualiza Claude con búsquedas web (tarea diaria o 'actualiza tendencias'). YouTube se consulta en directo con su API. Decisión del usuario: hashtags 100 % por tendencia, sin adaptarlos al contenido del vídeo. 'momento' = hashtags de actualidad ordenados de más a menos tendencia.",
+  "nota": "Hashtags 100 % por tendencia del nicho (IA + entretenimiento), sacados en directo de los vídeos con más vistas de los últimos 14 días en YouTube con 'busquedas_nicho'. Sin hashtags de relleno (#parati, #fyp...). 'nicho' y 'momento' solo se usan si YouTube no responde. La revisión de 4 días ajusta 'busquedas_nicho' con los formatos que estén pegando (p. ej. frutinovelas).",
   "nicho": [
     "aivideo",
     "ai",
@@ -33,23 +33,11 @@
     "funnyreels"
   ],
   "por_red": {
-    "tiktok": [
-      "fyp",
-      "parati",
-      "foryou",
-      "viral"
-    ],
-    "instagram": [
-      "reels",
-      "explorepage",
-      "reelsviral",
-      "reelsinstagram",
-      "trendingreels"
-    ],
     "youtube": [
-      "shorts",
-      "youtubeshorts"
-    ]
+      "shorts"
+    ],
+    "tiktok": [],
+    "instagram": []
   },
   "momento": [
     {
@@ -83,5 +71,13 @@
     "https://www.dashsocial.com/blog/instagram-hashtags",
     "https://www.que.es/2026/10/30/trends-tiktok-noviembre-2026/",
     "https://www.getstarrd.app/blog/viral-ai-video-trends-2026"
+  ],
+  "busquedas_nicho": [
+    "frutinovela ia",
+    "fruta ia novela",
+    "ai fruit drama",
+    "video ia viral",
+    "ai animation funny shorts",
+    "inteligencia artificial humor"
   ]
 }
