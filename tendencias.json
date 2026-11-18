@@ -1,7 +1,7 @@
 {
   "actualizado": "2026-11-18",
   "publico": "español + inglés",
-  "nota": "Hashtags 100 % por tendencia del nicho (IA + entretenimiento), sacados en directo de los vídeos con más vistas de los últimos 14 días en YouTube con 'busquedas_nicho'. Sin hashtags de relleno (#parati, #fyp...). 'nicho' y 'momento' solo se usan si YouTube no responde. La revisión de 4 días ajusta 'busquedas_nicho' con los formatos que estén pegando (p. ej. frutinovelas).",
+  "nota": "Hashtags 100 % tendencias MUNDIALES del nicho IA + entretenimiento: se sacan en directo de los vídeos cortos con más vistas del mundo en los últimos 14 días (YouTube, sin filtro de país ni idioma) con 'busquedas_nicho'. Sin genéricos (#humor, #funny, #viral...) ni relleno (#parati, #fyp...). Decisión del usuario.",
   "nicho": [
     "aivideo",
     "ai",
@@ -73,11 +73,12 @@
     "https://www.getstarrd.app/blog/viral-ai-video-trends-2026"
   ],
   "busquedas_nicho": [
-    "frutinovela ia",
-    "fruta ia novela",
     "ai fruit drama",
-    "video ia viral",
-    "ai animation funny shorts",
-    "inteligencia artificial humor"
+    "fruit love island ai",
+    "ai animation shorts",
+    "ai generated video viral",
+    "ai video trend",
+    "ai animals funny",
+    "frutinovela ia"
   ]
 }
